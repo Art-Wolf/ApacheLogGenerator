@@ -1,0 +1,6 @@
+version: 0.0
+os: linux
+hooks:
+   ApplicationStart:
+   - location: go run generator.go > /var/log/XTRAC-App.log
+     timeout: 300
