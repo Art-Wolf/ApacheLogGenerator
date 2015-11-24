@@ -1,6 +1,10 @@
 version: 0.0
 os: linux
 hooks:
+   BeforeInstall:
+   - location: install.sh
+     timeout: 600
+     runas: root
    ApplicationStart:
    - location: go run generator.go > /var/log/XTRAC-App.log
      timeout: 300
