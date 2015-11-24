@@ -5,3 +5,5 @@ Setup for Code Deploy
 - Install Go if it is not there
 - Move the go script to the home directory
 - Kick off go script
+
+Code Deploy automatically deploys based on changes to master.
