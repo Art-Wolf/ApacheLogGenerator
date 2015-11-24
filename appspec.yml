@@ -6,5 +6,5 @@ hooks:
      timeout: 600
      runas: root
    ApplicationStart:
-   - location: go run generator.go > /var/log/XTRAC-App.log
+   - location: run.sh
      timeout: 300
