@@ -6,3 +6,4 @@ Setup for Code Deploy
 - Move the go script to the home directory
 - Kick off go script
 
+Changes...
