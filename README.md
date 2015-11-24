@@ -6,4 +6,3 @@ Setup for Code Deploy
 - Move the go script to the home directory
 - Kick off go script
 
-Code Deploy automatically deploys based on changes to master.
