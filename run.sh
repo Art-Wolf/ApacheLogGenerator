@@ -1,4 +1,4 @@
 #!/bin/bash
 
-go run generator.go > /var/log/XTRACT-APP.log
+go run /home/ec2-user/generator.go > /var/log/XTRACT-APP.log
 
