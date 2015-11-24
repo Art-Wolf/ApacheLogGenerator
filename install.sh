@@ -1,7 +1,4 @@
 #!/bin/bash
 
-apt-get update -y
-apt-get upgrade -y
+yum -y install go
 
-# install dependencies
-apt-get install go
